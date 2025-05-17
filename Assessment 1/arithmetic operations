@@ -1,0 +1,11 @@
+# Taking dynamic input for arithmetic operations
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b if b != 0 else "Undefined (division by zero)")
+print("Floor Division:", a // b if b != 0 else "Undefined (division by zero)")
+print("Modulus:", a % b if b != 0 else "Undefined (modulus by zero)")
+print("Exponent:", a ** b)
