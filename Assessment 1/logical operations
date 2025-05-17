@@ -1,0 +1,8 @@
+# Taking dynamic input for logical operations
+x = input("Enter True or False for x: ").strip().lower() == "true"
+y = input("Enter True or False for y: ").strip().lower() == "true"
+
+print("AND:", x and y)
+print("OR:", x or y)
+print("NOT x:", not x)
+print("NOT y:", not y)
