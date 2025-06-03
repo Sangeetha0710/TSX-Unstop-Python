@@ -53,7 +53,7 @@ portfolio/
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/portfolio-website.git
+gh repo clone Sangeetha0710/TSX-Unstop-Python
 cd portfolio-website
 ```
 
