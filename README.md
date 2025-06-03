@@ -3,6 +3,7 @@
 
 Welcome to my personal portfolio website! This is a responsive web application that showcases my skills, projects, internships, resume, and contact information. Built using **Flask**, this site reflects my passion for full-stack development and clean, user-friendly design.
 
+
 ---
 
 ## 🛠️ Technologies Used
@@ -16,13 +17,14 @@ Welcome to my personal portfolio website! This is a responsive web application t
 
 ## 📁 Project Structure
 
-
+```plaintext
 portfolio/
 │
 ├── static/
+│   ├── profile.jpg
+│   ├── resume.pdf
 │   └── style.css              # Custom styling
-│   └── resume.pdf
-│   └── profile.png
+│
 ├── templates/
 │   ├── base.html              # Base layout with nav and footer
 │   ├── about.html             # About Me section
@@ -35,7 +37,7 @@ portfolio/
 ├── app.py                     # Main Flask application
 ├── requirements.txt           # Python dependencies
 └── README.md                  # Project documentation
-
+````
 
 ---
 
@@ -50,28 +52,29 @@ portfolio/
 
 1. **Clone the repository**
 
-
+```bash
 git clone https://github.com/yourusername/portfolio-website.git
 cd portfolio-website
+```
 
 2. **Create a virtual environment**
 
-
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
-
+```
 
 3. **Install dependencies**
 
-
+```bash
 pip install -r requirements.txt
-
+```
 
 4. **Run the app**
 
-
+```bash
 python app.py
-
+```
 
 5. **Visit**
    Open your browser and go to `http://127.0.0.1:5000/`
@@ -99,14 +102,11 @@ This project is licensed under the [MIT License](LICENSE).
 * 📧 Email: [sangeethausha2005@gmail.com](mailto:sangeethausha2005@gmail.com)
 * 🔗 LinkedIn: [linkedin.com/in/sangeetha-k-739aa2311/](https://www.linkedin.com/in/sangeetha-k-739aa2311/)
 * 🐙 GitHub: [github.com/Sangeetha0710](https://github.com/Sangeetha0710)
-
 ---
 
 ⭐️ *If you like this project, feel free to give it a star!*
 
-
-
----
-
+```
 Let me know if you'd like me to generate a `requirements.txt`, a `LICENSE`, or auto-deployment instructions for GitHub Pages, Render, or Vercel.
+```
 
