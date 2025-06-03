@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+<section>
+    <h2>Projects</h2>
+    <div class="project-grid">
+        {% for project in projects %}
+        <div class="project-card">
+            <h3>{{ project.name }}</h3>
+            <p>{{ project.description }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}
